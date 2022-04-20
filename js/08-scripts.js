@@ -22,3 +22,16 @@ console.log(card.children[1].children[1].textContent); //cambia el texto selecci
 card.children[0].src = 'img/hacer2.jpg' //cambia la imagen de la posición cero//
 console.log(card.children[0]);
 
+
+console.log(card.parentElement);//selecciona desde los hijos al padre//
+
+console.log(card.parentElement.parentElement);
+
+console.log(card); //selecciona el primer card//
+console.log(card.nextElementSibling); //selecciona el siguiente card, o sea un hermano//
+console.log(card.nextElementSibling.nextElementSibling);
+
+const ultimoCard = document.querySelector('.card:nth-child(4'); //selecciona eo card 4//
+console.log(ultimoCard);
+
+console.log(ultimoCard.previousElementSibling); //trae el card anterior//
