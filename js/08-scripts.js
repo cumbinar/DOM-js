@@ -35,3 +35,5 @@ const ultimoCard = document.querySelector('.card:nth-child(4'); //selecciona eo 
 console.log(ultimoCard);
 
 console.log(ultimoCard.previousElementSibling); //trae el card anterior//
+
+
