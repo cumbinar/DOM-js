@@ -6,4 +6,8 @@ console.log(encabezado);
 encabezado.style.backgroundColor = 'red'; //cambia el background-color del h1//
 console.log(encabezado.style);
 
+encabezado.style.fontFamily = 'arial';
+
+encabezado.style.textTransform = 'uppercase';
+
 
