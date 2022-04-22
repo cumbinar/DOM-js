@@ -12,7 +12,7 @@ const navegacion = document.querySelector('.navegacion');
 navegacion.appendChild(enlace); //agrega el enlace al final//
 
 const enlace2 = document.createElement('a'); //creando enlace//
-enlace2.textContent = 'Cumbi'; //agregando texto//
-enlace2.href = '/nuevo-enlace2'; //agregando href//
+enlace2.textContent = 'UIS'; //agregando texto//
+enlace2.href = 'https://www.uis.edu.co/webUIS/es/index.jsp'; //agregando href//
 enlace2.target = '_blank'; 
 navegacion.insertBefore(enlace2, navegacion.children[2]); //lo ubica antes del elemento de referencia//
